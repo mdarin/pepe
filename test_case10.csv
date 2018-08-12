@@ -1,0 +1,13 @@
+ssoid;ts;grp;type;subtype;url;orgid;formid;code;ltpa;sudirresponse;ymdh
+650ae77a-ffce-475d-a930-c7e345e0658c;1499763594;guis_-47;formcontroller;send;https://www.mos.ru/pgu/ru/application/guis/-47/#step_1;guis;-47;MPGU;;;2017-07-11-09
+aeadac26-3e19-438b-8e4a-a1ae754bbe41;1499763600;guis-47;bill;prepare;;;;;;;2017-07-11-09
+Unauthorized;1499763577;gibdd_fines;formcontroller;start;https://www.mos.ru/pgu/ru/application/gibdd/fines/?onsite_from=popular#step_1;gibdd;fines;MPGU;;;2017-07-11-09
+1f5ffc1e-0845-4a13-9647-a78081b6dc13;1499763599;mosenergo_counters;formcontroller;start;https://www.mos.ru/pgu/ru/application/mosenergo/counters/;mosenergo;counters;MPGU;;;2017-07-11-09
+7693d80e-cd53-4534-8e2c-302de95a750f;1499763599;dogm_77060201;formcontroller;start;https://www.mos.ru/pgu/ru/application/dogm/77060201/;dogm;77060201;MPGU;;;2017-07-11-09
+7d839abc-845c-4a29-a670-a3958091f7e2;1499763601;1111;addCounter;fail;;;;;;;2017-07-11-09
+4a9bbfc4-19f4-4c28-adeb-a43f3484baa3;1499763601;clinics_reg;doc;before;;;;;;;2017-07-11-09
+8fda7b10-4cf1-4a9d-aa6c-7e75d28c9bc7;1499763598;guis-47;getEpd;success;https://www.mos.ru/pgu/ru/application/guis/-47/?onsite_from=topmenu#step_1;guis;-47;MPGU;;;2017-07-11-09
+d6fb3532-1f9f-4813-bc96-08414b95bb09;1499763601;clinics_reg;error;soapfault;;;;;;;2017-07-11-09
+Unauthorized;1499763601;charges;search;success;;;;;;;2017-07-11-09
+a38c4052-54ac-4a49-88dc-c6c6d8b81fbe;1499763594;guis_-47;formcontroller;send;https://www.mos.ru/pgu/ru/application/guis/-47/#;guis;-47;MPGU;;;2017-07-11-09
+
