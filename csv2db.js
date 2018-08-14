@@ -105,7 +105,15 @@ class Transformer extends Transform {
 
 }// eof class
 
-
+//
+// Устроим пооток для индикации прогресса упрощённым конструктором :)
+//
+const reportProgress = new Transform({
+  transform(chunk, encoding, done) {
+    process.stdout.write('.');
+    done(null, chunk);
+  }
+});
 
 // готовим потоки
 
@@ -173,9 +181,9 @@ rl.on('error', (err) => {
 
 // организуем вывод преобразованных в запросы данных 
 // направить на запись в БД
-T.pipe(W);
+//T.pipe(W);
 // наприаить в файл(имитация нагрузки)
-T.pipe(WR);
+T.pipe(reportProgress).pipe(WR);
 
 
 
